@@ -12,6 +12,12 @@ This is a file for NBA basketball.
 
 *
 
+Clippers
+
+Knicks
+
+Timberwolves
+
 Bulls
 
 Raptors
