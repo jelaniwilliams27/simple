@@ -1,4 +1,4 @@
-This is a file for NBA basketball.
+This is a file for the National Basketball Association (NBA) basketball.
 
 *
 
