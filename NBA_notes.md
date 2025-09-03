@@ -14,6 +14,10 @@ This is a file for NBA basketball.
 
 Bulls
 
+Raptors
+
+76ers
+
 Jazz
 
 Magic
