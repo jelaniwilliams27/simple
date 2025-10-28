@@ -4,16 +4,13 @@ In today’s world, anyone with an internet connection can post anything. Differ
 
 Establishing reputable content starts with building trust between the audience and the published articles through a repeatable process geared towards fact-checking. The process for data journalism is outlined below:
 
-1. **Find – Search for data on the internet**
-2. Clean – Filter and transform data in preparation for visualization
-3. Visualize – Display the determined pattern (static or dynamic)
-4. Review – Validate findings and sources through the editorial process 
-5. Publish – Integrate the visuals and attach the data to stories
-6. Distribute – Enable access to stories on various devices for reader access
-7. Measure – Track usage of stories over time and conduct analysis
-
-> This document will focus on the “Find” step.
-
+1. **Find** – Search for data on the internet
+2. **Clean** – Filter and transform data in preparation for visualization
+3. **Visualize** – Display the determined pattern (static or dynamic)
+4. **Review** – Validate findings and sources through the editorial process 
+5. **Publish** – Integrate the visuals and attach the data to stories
+6. **Distribute** – Enable access to stories on various devices for reader access
+7. **Measure** – Track usage of stories over time and conduct analysis
 
 # Audience
 
