@@ -10,6 +10,9 @@ The code shown in the following steps is included to show examples of what code 
 	- Available data (e.g. reports, quantifiable details)
 	- Parameters (e.g. location, date range)
 	- API Key Requirements (e.g. fully open, require registration)
+
+* Sample documentation:
+	- Census API: https://www.census.gov/data/developers/guidance/api-user-guide.html
 		
 ### Step 2 - Request an API Key (if required)
 
