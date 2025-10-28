@@ -4,9 +4,9 @@ An Application Programming Interface (API) is an interface enabling two software
 Representational State Transfer (REST) APIs are the most popular and flexible APIs on the modern internet. The client sends data requests to the server. The server uses the received client input to initiate internal functions and returns output data back to the client. REST APIs are stateless meaning servers do not save client data between requests. Client requests to the server are similar to URLs typed in a browser for a website.
 
 The benefits of REST APIs are as follows:
-* Flexibility - Allows users to communicate back and forth with clients and servers even when hosted on different servers.
-* Adaptability - Changes to data that resides on the server-side back-end databases are automatically pulled over during the API call without issue because API syntax remains the same.
-* Ease to Understand - REST architecture helps increase developer productivity with the options to display information on the client-side and store or separately manipulate the data on the server-side.
+* **Flexibility** - Allows users to communicate back and forth with clients and servers even when hosted on different servers.
+* **Adaptability** - Changes to data that resides on the server-side back-end databases are automatically pulled over during the API call without issue because API syntax remains the same.
+* **Ease to Understand** - REST architecture helps increase developer productivity with the options to display information on the client-side and store or separately manipulate the data on the server-side.
 
 # Key Parts of an API
 An API is a set of programmable instructions that allow two applications to communicate. Below are the fundamental components required to ensure the data is correctly called for and received.

@@ -6,7 +6,7 @@ Establishing reputable content starts with building trust between the audience a
 
 1. **Find – Search for data on the internet**
 2. Clean – Filter and transform data in preparation for visualization
-3. Visualize – Display the determined pattern (static or animated)
+3. Visualize – Display the determined pattern (static or dynamic)
 4. Review – Validate findings and sources through the editorial process 
 5. Publish – Integrate the visuals and attach the data to stories
 6. Distribute – Enable access to stories on various devices for reader access
