@@ -10,12 +10,13 @@ The code shown in the following steps is included to show examples of what code 
 - Available data (e.g. reports, quantifiable details)
 - Parameters (e.g. location, date range)
 - API Key Requirements (e.g. fully open, require registration)
-- Sample Documentation: Census API docs - https://www.census.gov/data/developers/guidance/api-user-guide.html
+- Sample Documentation: <a href="https://www.census.gov/data/developers/guidance/api-user-guide.html>Census API docs</a>
 
 ### Step 2 - Request an API Key (if required)
 
 * Some APIs require a sign up to obtain a free key designed to identify the user, prevents abuse, and tracks usage limits.
 * The following Python code shows the key in an API request:
+		
 		params = {"api_key": "YOUR_KEY_HERE"}
 
 ### Step 3 - Make a Request
