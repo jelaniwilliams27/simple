@@ -20,7 +20,7 @@ Establishing reputable content starts with building trust between the audience a
 Journalists who want to stand out from a crowded field of information producers should consider the added benefits of acquiring the skillset of data journalists. This document is designed for:
 
 * Data journalists who want to learn API basics
-* Journalists who have a working knowledge of the internet and want to work towards specialization in data journalists.
+* Journalists who have a working knowledge of the internet + coding principles, and want to work towards specialization in data journalists.
 
 Below are prerequisite concepts to understand before proceeding with the rest of this document:
 
@@ -32,5 +32,6 @@ Below are prerequisite concepts to understand before proceeding with the rest of
 * How to use libraries
 * Loops and conditionals
 * Basic file handling
-* (Optional) JavaScript Object Notation (JSON)
+* JavaScript Object Notation (JSON)
+* Introduction to Python coding language
 * (Optional) Data structures (e.g. key-value pairs, lists)
