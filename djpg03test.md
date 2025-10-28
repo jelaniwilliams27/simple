@@ -7,11 +7,10 @@ The code shown in the following steps is included to show examples of what code 
 * Every reputable API should be accompanied by a Readme file that describes the API's purpose, how to use it, licensing details, credits, and and other information.has a base URL and endpoints that define what data you can access.
 
 * The documentation describes:
-- Available data (e.g. reports, quantifiable details)
-- Parameters (e.g. location, date range)
-- API Key Requirements (e.g. fully open, require registration)
-- Sample Documentation: <a href="https://www.census.gov/data/developers/guidance/api-user-guide.html>Census%20API%20docs</a>
-
+		- Available data (e.g. reports, quantifiable details)
+		- Parameters (e.g. location, date range)
+		- API Key Requirements (e.g. fully open, require registration)
+		
 ### Step 2 - Request an API Key (if required)
 
 * Some APIs require a sign up to obtain a free key designed to identify the user, prevents abuse, and tracks usage limits.
