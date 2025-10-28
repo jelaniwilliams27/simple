@@ -8,16 +8,18 @@ The benefits of REST APIs are as follows:
 * **Adaptability** - Changes to data that resides on the server-side back-end databases are automatically pulled over during the API call without issue because API syntax remains the same.
 * **Ease to Understand** - REST architecture helps increase developer productivity with the options to display information on the client-side and store or separately manipulate the data on the server-side.
 
+<figcaption><p><strong>Figure 1 - Basic API Flow</strong></p></figcaption>
+
 # Key Parts of an API
 An API is a set of programmable instructions that allow two applications to communicate. Below are the fundamental components required to ensure the data is correctly called for and received.
 
-## API Client
+### API Client
 Simplifies the use of the API while shielding the user from the backend technical intricacies. An API client can also initiate a request or an external event from a service or application that automatically activates a request. 
 
-## API Key
+### API Key
 A unique passcode containing numbers and letters that grants access to an API. The keys improve security, authenticate an application, or identify an authorized user. 
 
-## API Requests
+### API Requests
 A message (or a call) sent to an application server asking for a specific service, functionality, or data. The sub-components that make up REST API requests are:
 
 | **Term** | **Definition** |
@@ -28,3 +30,4 @@ A message (or a call) sent to an application server asking for a specific servic
 | **Request Headers** | Provides essential information for a server to process the request. This information can include metadata such as content type, authentication tokens, and other data required by the server or client to process the response or request. |
 | **API Server** | A type of intermediary software that sits between different systems and allows different applications to communicate. |
 | **API Response** | The generated response returned to the client. A response may include the following components: status code, response headers, and body. |
+<figcaption><p><strong>Table 1 - Key API Terms</strong></p></figcaption>
