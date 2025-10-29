@@ -1,4 +1,4 @@
-#### Overview - What is Data Journalism?
+# What is Data Journalism?
 
 In today’s world, anyone with an internet connection can post anything. Differentiating between accurate information and unresearched content can be difficult for the average user. For users who seek news backed by confirmable research and fact-checking, data journalism is used to ensure such news stories exist in the media landscape. Data journalism is the process of discovering, understanding, and processing large data sets with the purpose of producing news stories grounded in verifiable data.
 
@@ -13,6 +13,7 @@ Establishing reputable content starts with building trust between the audience a
 | **Publish** | Integrate the visuals and attach the data to stories |
 | **Distribute** | Enable access to stories on various devices for reader access |
 | **Measure** | Track usage of stories over time and conduct analysis |
+<figcaption><p align="center"><strong>Table 1 - Data Journalism Process</strong></p></figcaption>
 
 # Who is this Document For?
 

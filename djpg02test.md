@@ -8,7 +8,7 @@ The benefits of REST APIs are as follows:
 * **Adaptability** - Changes to data that resides on the server-side back-end databases are automatically pulled over during the API call without issue because API syntax remains the same.
 * **Ease to Understand** - REST architecture helps increase developer productivity with the options to display information on the client-side and store or separately manipulate the data on the server-side.
 
-<figcaption><p align="center"><strong>Figure 1 - Basic API Flow</strong></p></figcaption>
+<figcaption><p align="center"><strong>Figure 2 - Basic API Flow</strong></p></figcaption>
 
 # Key Parts of an API
 An API is a set of programmable instructions that allow two applications to communicate. Below are the fundamental components required to ensure the data is correctly called for and received.
@@ -30,4 +30,4 @@ A message (or a call) sent to an application server asking for a specific servic
 | **Request Headers** | Provides essential information for a server to process the request. This information can include metadata such as content type, authentication tokens, and other data required by the server or client to process the response or request. |
 | **API Server** | A type of intermediary software that sits between different systems and allows different applications to communicate. |
 | **API Response** | The generated response returned to the client. A response may include the following components: status code, response headers, and body. |
-<figcaption><p align="center"><strong>Table 1 - Key API Terms</strong></p></figcaption>
+<figcaption><p align="center"><strong>Table 2 - Key API Terms</strong></p></figcaption>
