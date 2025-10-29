@@ -94,3 +94,117 @@ To report on economic trends, inequality, and inflation.
 #### Insight Provided: 
 Analyze unemployment rate trends over time and correlate with policy changes.
 ___
+
+
+## Environment and Climate
+
+#### Goal:
+To report on climate change, pollution, disasters, or resource management.
+
+#### Examples of APIs used:
+* NOAA Climate Data API - Temperature, storms, droughts
+* EPA AirNow API - Air quality data (AQI)
+* USGS Earthquake API - Seismic activity
+* NASA Earth Data APIs - Satellite imagery and global temperature data
+	
+#### What each API looks for:
+* Climate trends over time (e.g. rising temperatures)
+* Air or water quality by region
+* Natural disaster frequency or impact
+* Effects of policy on emissions
+
+#### Sample API:
+	
+	import requests
+	import pandas as pd
+
+	API_KEY = "YOUR_AIRNOW_API_KEY"
+	url = "https://www.airnowapi.org/aq/observation/latLong/current/"
+	params = {
+		"format": "application/json",
+		"latitude": 39.2904,  # Example: Baltimore, MD
+		"longitude": -76.6122,
+		"distance": 25,
+		"API_KEY": API_KEY
+	}
+
+	response = requests.get(url, params=params)
+	data = response.json()
+
+	df = pd.DataFrame(data)
+	print(df[["ReportingArea", "AQI", "Category"]])
+
+	
+#### Insight Provided: 
+Monitor air quality trends and compare between urban and rural regions.
+___
+
+## Public Safety and Justice
+
+#### Goal:
+To uncover patterns in policing, incarceration, or emergency response.
+
+#### Examples of APIs used:
+* FBI Crime Data API - Crime rates by type and geography
+* City police open-data APIs - Arrests, incidents, calls for service
+* DOJ or court APIs - Sentencing data or case outcomes
+	
+#### What each API looks for:
+* Disparities in policing or sentencing
+* Trends in violent vs. property crimes
+* Local responses to public safety issues
+
+#### Sample API:
+	
+import requests
+import pandas as pd
+
+API_KEY = "YOUR_FBI_API_KEY"
+url = "https://api.usa.gov/crime/fbi/sapi/api/summarized/state/MD/violent-crime/2018/2023"
+params = {"API_KEY": API_KEY}
+
+response = requests.get(url, params=params)
+data = response.json()
+
+df = pd.DataFrame(data["results"])
+print(df[["year", "offense", "actual"]])
+
+	
+#### Insight Provided: 
+Monitor air quality trends and compare between urban and rural regions.
+___
+
+
+## Health Data
+
+#### Goal:
+To track health trends, disease outbreaks, and healthcare access.
+
+#### Examples of APIs used:
+* CDC API - Case counts, mortality data, public health metrics
+* WHO API - Global health indicators
+* OpenFDA API - Drug recalls, side effects, and approvals
+	
+#### What each API looks for:
+* COVID-19 trends or vaccination rates
+* Geographic or demographic disparities in healthcare
+* Medication safety or recall frequency
+
+#### Sample API:
+	
+import requests
+import pandas as pd
+
+url = "https://data.cdc.gov/resource/9mfq-cb36.json"
+params = {"state": "MD", "$limit": 10}
+
+response = requests.get(url, params=params)
+data = response.json()
+
+df = pd.DataFrame(data)
+print(df[["submission_date", "new_case", "new_death"]])
+
+	
+#### Insight Provided: 
+Track new COVID-19 cases and deaths by state and date.
+___
