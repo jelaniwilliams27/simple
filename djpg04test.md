@@ -49,13 +49,13 @@ To analyze public spending, legislation, crime, and demographics.
 
 	print(df.head())
 	
-#### Insight Provided: 
+#### :mag: Insight Provided: 
 Note which states gained or lost the most people year-over-year.
 ___
 
 ## Economics and Finance
 
-#### Goal:
+#### :white_check_mark: Goal:
 To report on economic trends, inequality, and inflation.
 
 #### Examples of APIs used:
@@ -91,14 +91,14 @@ To report on economic trends, inequality, and inflation.
 
 	print(df.tail())
 	
-#### :mag:Insight Provided: 
+#### :mag: Insight Provided: 
 Analyze unemployment rate trends over time and correlate with policy changes.
 ___
 
 
 ## Environment and Climate
 
-#### Goal:
+#### :white_check_mark: Goal:
 To report on climate change, pollution, disasters, or resource management.
 
 #### Examples of APIs used:
@@ -141,7 +141,7 @@ ___
 
 ## Public Safety and Justice
 
-#### Goal:
+#### :white_check_mark: Goal:
 To uncover patterns in policing, incarceration, or emergency response.
 
 #### Examples of APIs used:
@@ -170,14 +170,14 @@ df = pd.DataFrame(data["results"])
 print(df[["year", "offense", "actual"]])
 
 	
-#### Insight Provided: 
+#### :mag: Insight Provided: 
 Monitor air quality trends and compare between urban and rural regions.
 ___
 
 
 ## Health Data
 
-#### Goal:
+#### :white_check_mark: Goal:
 To track health trends, disease outbreaks, and healthcare access.
 
 #### Examples of APIs used:
@@ -205,6 +205,6 @@ To track health trends, disease outbreaks, and healthcare access.
 	print(df[["submission_date", "new_case", "new_death"]])
 
 	
-#### Insight Provided: 
+#### :mag: Insight Provided: 
 Track new COVID-19 cases and deaths by state and date.
 ___
