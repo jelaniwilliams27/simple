@@ -1,5 +1,15 @@
 # Key Research Fields
-This section contains ten examples with APIs for different fields of research. Each example will contain a topic area, the data journalist's goal within that area, what the API searches for, and sample API code.
+This section contains ten examples with APIs for different fields of research. Each example will contain a topic area, the data journalist's goal within that area, what the API searches for, and sample API code. The following areas will be highlighted in this section:
+
+- Government and Civic
+- Economy
+- Environment
+- Justice
+- Health
+- Transport
+- Social Media
+- Housing
+- Education
 
 ## Government and Civic Data
 
@@ -43,7 +53,7 @@ To analyze public spending, legislation, crime, and demographics.
 Note which states gained or lost the most people year-over-year.
 ___
 
-## Government and Civic Data
+## Economics and Finance
 
 #### Goal:
 To report on economic trends, inequality, and inflation.
