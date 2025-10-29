@@ -21,7 +21,7 @@ Goal: To analyze public spending, legislation, crime, and demographics.
 	import requests
 	import pandas as pd
 
-	# Example: Get 2023 population by state from U.S. Census API
+	_Example: Get 2023 population by state from U.S. Census API_
 	url = "https://api.census.gov/data/2023/pep/population"
 	params = {
 		"get": "NAME,POP",
