@@ -13,7 +13,7 @@ This section contains ten examples with APIs for different fields of research. E
 
 ## Government and Civic Data
 
-#### Goal: 
+#### :white_check_mark: Goal: 
 To analyze public spending, legislation, crime, and demographics.
 
 #### Examples of APIs used:
@@ -135,7 +135,7 @@ To report on climate change, pollution, disasters, or resource management.
 	print(df[["ReportingArea", "AQI", "Category"]])
 
 	
-#### Insight Provided: 
+#### :mag: Insight Provided: 
 Monitor air quality trends and compare between urban and rural regions.
 ___
 
