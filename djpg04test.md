@@ -91,7 +91,7 @@ To report on economic trends, inequality, and inflation.
 
 	print(df.tail())
 	
-#### Insight Provided: 
+#### :mag:Insight Provided: 
 Analyze unemployment rate trends over time and correlate with policy changes.
 ___
 
@@ -192,17 +192,17 @@ To track health trends, disease outbreaks, and healthcare access.
 
 #### Sample API:
 	
-import requests
-import pandas as pd
+	import requests
+	import pandas as pd
 
-url = "https://data.cdc.gov/resource/9mfq-cb36.json"
-params = {"state": "MD", "$limit": 10}
+	url = "https://data.cdc.gov/resource/9mfq-cb36.json"
+	params = {"state": "MD", "$limit": 10}
 
-response = requests.get(url, params=params)
-data = response.json()
+	response = requests.get(url, params=params)
+	data = response.json()
 
-df = pd.DataFrame(data)
-print(df[["submission_date", "new_case", "new_death"]])
+	df = pd.DataFrame(data)
+	print(df[["submission_date", "new_case", "new_death"]])
 
 	
 #### Insight Provided: 
