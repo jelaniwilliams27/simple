@@ -8,7 +8,7 @@ The benefits of REST APIs are as follows:
 * **Adaptability** - Changes to data that resides on the server-side back-end databases are automatically pulled over during the API call without issue because API syntax remains the same.
 * **Ease to Understand** - REST architecture helps increase developer productivity with the options to display information on the client-side and store or separately manipulate the data on the server-side.
 
-<figcaption><p align="center"><strong>Figure 2 - Basic API Flow</strong></p></figcaption>
+<figcaption><p align="center"><strong>Figure 1 - Basic API Flow</strong></p></figcaption>
 
 # Key Parts of an API
 An API is a set of programmable instructions that allow two applications to communicate. Below are the fundamental components required to ensure the data is correctly called for and received.
