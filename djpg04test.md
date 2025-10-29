@@ -1,4 +1,4 @@
-# Key Research Fields
+# Key Research Fields / Areas
 This section contains ten examples with APIs for different fields of research. Each example will contain a topic area, the data journalist's goal within that area, what the API searches for, and sample API code. The following areas will be highlighted in this section:
 
 - Government and Civic
@@ -139,7 +139,7 @@ To report on climate change, pollution, disasters, or resource management.
 Monitor air quality trends and compare between urban and rural regions.
 ___
 
-## Public Safety and Justice
+## Safety and Justice
 
 #### :white_check_mark: Goal:
 To uncover patterns in policing, incarceration, or emergency response.
