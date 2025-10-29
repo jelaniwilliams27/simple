@@ -20,7 +20,7 @@ To analyze public spending, legislation, crime, and demographics.
 * U.S. Census Bureau API - Population, income, housing, race, education
 * Federal Election Commission (FEC) API - Campaign donations and expenditures
 * Data.gov APIs - Federal datasets across hundreds of topics
-* City/County open-data APIs - Local budgets, permits, police calls, or property records
+* City and County open-data APIs - Local budgets, permits, police calls, or property records
 	
 #### What each API looks for:
 * Who funds which political candidates
@@ -156,18 +156,18 @@ To uncover patterns in policing, incarceration, or emergency response.
 
 #### Sample API:
 	
-import requests
-import pandas as pd
+	import requests
+	import pandas as pd
 
-API_KEY = "YOUR_FBI_API_KEY"
-url = "https://api.usa.gov/crime/fbi/sapi/api/summarized/state/MD/violent-crime/2018/2023"
-params = {"API_KEY": API_KEY}
+	API_KEY = "YOUR_FBI_API_KEY"
+	url = "https://api.usa.gov/crime/fbi/sapi/api/summarized/state/MD/violent-crime/2018/2023"
+	params = {"API_KEY": API_KEY}
 
-response = requests.get(url, params=params)
-data = response.json()
+	response = requests.get(url, params=params)
+	data = response.json()
 
-df = pd.DataFrame(data["results"])
-print(df[["year", "offense", "actual"]])
+	df = pd.DataFrame(data["results"])
+	print(df[["year", "offense", "actual"]])
 
 	
 #### :mag: Insight Provided: 
@@ -337,22 +337,22 @@ To investigate funding, outcomes, and equity in schools.
 #### Sample API:
 	
 	import requests
-import pandas as pd
+	import pandas as pd
 
-API_KEY = "YOUR_ED_API_KEY"
-url = "https://api.data.gov/ed/collegescorecard/v1/schools"
-params = {
-    "api_key": API_KEY,
-    "fields": "school.name,location.state,latest.student.size,latest.cost.tuition.in_state",
-    "school.state": "MD",
-    "per_page": 5
-}
+	API_KEY = "YOUR_ED_API_KEY"
+	url = "https://api.data.gov/ed/collegescorecard/v1/schools"
+	params = {
+		"api_key": API_KEY,
+		"fields": "school.name,location.state,latest.student.size,latest.cost.tuition.in_state",
+		"school.state": "MD",
+		"per_page": 5
+	}
 
-response = requests.get(url, params=params)
-data = response.json()
+	response = requests.get(url, params=params)
+	data = response.json()
 
-df = pd.DataFrame(data["results"])
-print(df)
+	df = pd.DataFrame(data["results"])
+	print(df)
 	
 #### :mag: Insight Provided: 
 Compare tuition costs and enrollment sizes for Maryland colleges.
