@@ -16,17 +16,19 @@ This section contains ten examples with APIs for different fields of research. E
 #### :white_check_mark: Goal: 
 To analyze public spending, legislation, crime, and demographics.
 
-#### Examples of APIs used:
+#### API Examples:
 * U.S. Census Bureau API - Population, income, housing, race, education
 * Federal Election Commission (FEC) API - Campaign donations and expenditures
-* Data.gov APIs - Federal datasets across hundreds of topics
-* City and County open-data APIs - Local budgets, permits, police calls, or property records
+* Data.gov APIs - Federal datasets across a variety of topics
+* City and County open-data APIs - Local budgets, permits, police calls, property records
 	
-#### What each API looks for:
+#### API Data Retrieval:
 * Who funds which political candidates
-* Changes in population or economic trends
+* Population changes 
+* Economic trends
 * How cities spend taxpayer money
-* Public safety or zoning trends
+* Public safety
+* Zoning trends
 	
 #### Sample API:
 	
@@ -50,7 +52,7 @@ To analyze public spending, legislation, crime, and demographics.
 	print(df.head())
 	
 #### :mag: Insight Provided: 
-Note which states gained or lost the most people year-over-year.
+Notes which states gained or lost the most people year-over-year.
 ___
 
 ## Economics and Finance
@@ -58,16 +60,17 @@ ___
 #### :white_check_mark: Goal:
 To report on economic trends, inequality, and inflation.
 
-#### Examples of APIs used:
+#### API Examples:
 * Federal Reserve (FRED) API - Interest rates, employment, GDP
-* SEC’s EDGAR API - Corporate filings and executive compensation
-* World Bank / IMF APIs - Global economic indicators
+* SEC-based EDGAR API - Corporate filings, executive compensation
+* World Bank and IMF APIs - Global economic indicators
 	
-#### What each API looks for:
+#### API Data Retrieval:
+* Financial transparency or corruption
 * Wage and employment trends
 * Market volatility indicators
 * Regional economic disparities
-* Financial transparency or corruption
+
 	
 #### Sample API:
 	
@@ -92,7 +95,7 @@ To report on economic trends, inequality, and inflation.
 	print(df.tail())
 	
 #### :mag: Insight Provided: 
-Analyze unemployment rate trends over time and correlate with policy changes.
+Analyzes unemployment rate trends over time and correlates with policy changes.
 ___
 
 
@@ -101,14 +104,14 @@ ___
 #### :white_check_mark: Goal:
 To report on climate change, pollution, disasters, or resource management.
 
-#### Examples of APIs used:
+#### API Examples:
 * NOAA Climate Data API - Temperature, storms, droughts
-* EPA AirNow API - Air quality data (AQI)
+* EPA AirNow API - Air quality data
 * USGS Earthquake API - Seismic activity
-* NASA Earth Data APIs - Satellite imagery and global temperature data
+* NASA Earth Data APIs - Satellite imagery, global temperature data
 	
-#### What each API looks for:
-* Climate trends over time (e.g. rising temperatures)
+#### API Data Retrieval:
+* Climate trends over time (i.e. rising temperatures)
 * Air or water quality by region
 * Natural disaster frequency or impact
 * Effects of policy on emissions
@@ -136,7 +139,7 @@ To report on climate change, pollution, disasters, or resource management.
 
 	
 #### :mag: Insight Provided: 
-Monitor air quality trends and compare between urban and rural regions.
+Monitors air quality trends and compares between urban and rural regions.
 ___
 
 ## Safety and Justice
@@ -144,12 +147,12 @@ ___
 #### :white_check_mark: Goal:
 To uncover patterns in policing, incarceration, or emergency response.
 
-#### Examples of APIs used:
+#### API Examples:
 * FBI Crime Data API - Crime rates by type and geography
 * City police open-data APIs - Arrests, incidents, calls for service
-* DOJ or court APIs - Sentencing data or case outcomes
+* DOJ or court APIs - Sentencing data, case outcomes
 	
-#### What each API looks for:
+#### API Data Retrieval:
 * Disparities in policing or sentencing
 * Trends in violent vs. property crimes
 * Local responses to public safety issues
@@ -171,7 +174,7 @@ To uncover patterns in policing, incarceration, or emergency response.
 
 	
 #### :mag: Insight Provided: 
-Monitor air quality trends and compare between urban and rural regions.
+Tracks violent crime rates in Maryland over a span of several years.
 ___
 
 
@@ -180,12 +183,12 @@ ___
 #### :white_check_mark: Goal:
 To track health trends, disease outbreaks, and healthcare access.
 
-#### Examples of APIs used:
+#### API Examples:
 * CDC API - Case counts, mortality data, public health metrics
 * WHO API - Global health indicators
-* OpenFDA API - Drug recalls, side effects, and approvals
+* OpenFDA API - Drug recalls, side effects, approvals
 	
-#### What each API looks for:
+#### API Data Retrieval:
 * COVID-19 trends or vaccination rates
 * Geographic or demographic disparities in healthcare
 * Medication safety or recall frequency
@@ -206,7 +209,7 @@ To track health trends, disease outbreaks, and healthcare access.
 
 	
 #### :mag: Insight Provided: 
-Track new COVID-19 cases and deaths by state and date.
+Tracks new COVID-19 cases and deaths by state and date.
 ___
 
 
@@ -215,12 +218,12 @@ ___
 #### :white_check_mark: Goal:
 To report on mobility, safety, and infrastructure investment.
 
-#### Examples of APIs used:
-* U.S. DOT / NHTSA APIs - Traffic accidents, recalls, infrastructure spending
+#### API Examples:
+* U.S. DOT and NHTSA APIs - Traffic accidents, recalls, infrastructure spending
 * Transit APIs (e.g. MTA, WMATA) - Public transit ridership and delays
-* FAA / FlightAware APIs - Flight paths and delays
+* FAA and FlightAware APIs - Flight paths and delays
 	
-#### What each API looks for:
+#### API Data Retrieval:
 * Accident rates or causes
 * Public transportation usage trends
 * Infrastructure gaps in underserved areas
@@ -240,7 +243,7 @@ To report on mobility, safety, and infrastructure investment.
 	print(df[["Component", "Summary"]].head())
 
 #### :mag: Insight Provided: 
-Identify recall trends by brand or model for consumer reporting.
+Identifies recall trends by brand or model for consumer reporting.
 ___
 
 
@@ -249,11 +252,11 @@ ___
 #### :white_check_mark: Goal:
 To measure public sentiment, misinformation, and online activity.
 
-#### Examples of APIs used:
+#### API Examples:
 * X / Twitter API, Reddit API, YouTube Data API
 * CrowdTangle API (Facebook/Instagram data)
 	
-#### What each API looks for:
+#### API Data Retrieval:
 * How topics or hashtags trend over time
 * Misinformation spread or coordinated activity
 * Sentiment toward policies or events
@@ -280,7 +283,7 @@ To measure public sentiment, misinformation, and online activity.
 	print(df[["title", "score", "url"]])
 	
 #### :mag: Insight Provided: 
-Analyze which topics related to “climate change” gain the most traction.
+Analyzes which topics related to “climate change” gain the most traction.
 ___
 
 
@@ -289,12 +292,12 @@ ___
 #### :white_check_mark: Goal:
 To analyze housing affordability and gentrification.
 
-#### Examples of APIs used:
+#### API Examples:
 * Realtor APIs - Home prices, rental costs
 * HUD API - Affordable housing availability
 * Local property tax APIs
 	
-#### What each API looks for:
+#### API Data Retrieval:
 * Home price trends vs. income growth
 * Eviction or foreclosure rates
 * Changes in neighborhood demographics
@@ -315,7 +318,7 @@ To analyze housing affordability and gentrification.
 
 	
 #### :mag: Insight Provided: 
-Compare average rent prices across Maryland counties.
+Compares average rent prices across Maryland counties.
 
 ___
 
@@ -324,12 +327,12 @@ ___
 #### :white_check_mark: Goal:
 To investigate funding, outcomes, and equity in schools.
 
-#### Examples of APIs used:
+#### API Examples:
 * U.S. Department of Education APIs - School performance, graduation rates
 * IPEDS API - College and university data
 * State education open data
 	
-#### What each API looks for:
+#### API Data Retrieval:
 * Achievement gaps across regions
 * School funding and resource allocation
 * Trends in enrollment or tuition
@@ -355,4 +358,4 @@ To investigate funding, outcomes, and equity in schools.
 	print(df)
 	
 #### :mag: Insight Provided: 
-Compare tuition costs and enrollment sizes for Maryland colleges.
+Compares tuition costs and enrollment sizes for Maryland colleges.
