@@ -1,4 +1,4 @@
-# Key Research Fields / Areas
+# Key Research Areas
 This section contains ten examples with APIs for different fields of research. Each example will contain a topic area, the data journalist's goal within that area, what the API searches for, and sample API code. The following areas will be highlighted in this section:
 
 - Government and Civic
