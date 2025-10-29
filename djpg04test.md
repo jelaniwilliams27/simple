@@ -1,8 +1,10 @@
 # Key Research Fields
 This section contains ten examples with APIs for different fields of research. Each example will contain a topic area, the data journalist's goal within that area, what the API searches for, and sample API code.
 
-### Government and Civic Data
-Goal: To analyze public spending, legislation, crime, and demographics.
+## Government and Civic Data
+
+#### Goal: 
+To analyze public spending, legislation, crime, and demographics.
 
 #### Examples of APIs used:
 * U.S. Census Bureau API - Population, income, housing, race, education
@@ -41,8 +43,10 @@ Goal: To analyze public spending, legislation, crime, and demographics.
 Note which states gained or lost the most people year-over-year.
 ___
 
-### Government and Civic Data
-Goal: To report on economic trends, inequality, and inflation.
+## Government and Civic Data
+
+#### Goal:
+To report on economic trends, inequality, and inflation.
 
 #### Examples of APIs used:
 * Federal Reserve (FRED) API - Interest rates, employment, GDP
