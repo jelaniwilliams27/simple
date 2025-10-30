@@ -6,7 +6,7 @@ Establishing reputable content starts with building trust between the audience a
 
 | **Process Step** | **Description**                                               |
 |------------------|---------------------------------------------------------------|
-| **Finnnnd**      | Search for data on the internet                               |
+| **Find**         | Search for data on the internet                               |
 | **Clean**        | Filter and transform data in preparation for visualization    |
 | **Visualize**    | Display the determined pattern (static or dynamic)            |
 | **Review**       | Validate findings and sources through the editorial process   |
