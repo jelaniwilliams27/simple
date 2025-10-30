@@ -23,7 +23,7 @@ A unique passcode containing numbers and letters that grants access to an API. T
 A message (or a call) sent to an application server asking for a specific service, functionality, or data. The sub-components that make up REST API requests are:
 
 | **Term** | **Definition** |
-|-----------|----------------|
+|:-----------:|----------------|
 | **Endpoint** | The location where an API receives requests for data and functionality, typically represented by Uniform Resource Locators (URLs). The endpoint lets different systems and applications communicate by sending and receiving instructions. |
 | **Request Method** | Specific operations the client wants to perform on the URL resource (e.g., GET, POST, PUT, DELETE). |
 | **Parameters** | Variables passed to an endpoint to provide instructions the API server needs to process. The parameters are typically included as part of the request in the URL string or the request body field. |
