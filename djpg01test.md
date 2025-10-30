@@ -5,7 +5,7 @@ In today’s world, anyone with an internet connection can post anything. Differ
 Establishing reputable content starts with building trust between the audience and the published articles through a repeatable process geared towards fact-checking. The process for data journalism is outlined below:
 
 | **Process Step** | **Description** |
-|-----------|-----------------|
+|------------------|-----------------|
 | **Find** | Search for data on the internet |
 | **Clean** | Filter and transform data in preparation for visualization |
 | **Visualize** | Display the determined pattern (static or dynamic) |
@@ -13,7 +13,7 @@ Establishing reputable content starts with building trust between the audience a
 | **Publish** | Integrate the visuals and attach the data to stories |
 | **Distribute** | Enable access to stories on various devices for reader access |
 | **Measure** | Track usage of stories over time and conduct analysis |
-<figcaption><p align="center"><strong>Table 1 - Data Journalism Process</strong></p></figcaption>
+<center><strong>Table 1 - Data Journalism Process</strong></center>
 
 # Who is this Document For?
 

@@ -30,4 +30,4 @@ A message (or a call) sent to an application server asking for a specific servic
 | **Request Headers** | Provides essential information for a server to process the request. This information can include metadata such as content type, authentication tokens, and other data required by the server or client to process the response or request. |
 | **API Server** | A type of intermediary software that sits between different systems and allows different applications to communicate. |
 | **API Response** | The generated response returned to the client. A response may include the following components: status code, response headers, and body. |
-<figcaption><p align="center"><strong>Table 2 - Key API Terms</strong></p></figcaption>
+<center><strong>Table 2 - Key API Terms</strong></center>
